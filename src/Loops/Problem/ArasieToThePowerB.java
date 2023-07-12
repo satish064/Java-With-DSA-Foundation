@@ -7,11 +7,11 @@ public class ArasieToThePowerB {
         System.out.println("Enter the a raise to the power b: ");
         int a = sc.nextInt();
         int b = sc.nextInt();
-        int power = 1;
-        for(int i = 1;i<=b;i++)
+        int ans = 1;
+        for(int i = 1;i<=2;i++)
         {
-            power*=a;
+            ans*=a;
         }
-        System.out.print("A rasie to the power B : "+ power);
+        System.out.print("A rasie to the power B : "+ a);
     }
 }
