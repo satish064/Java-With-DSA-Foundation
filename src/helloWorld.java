@@ -1,20 +1,13 @@
-
 import java.util.Scanner;
-public class helloWorld
-
+class Person
 {
-    public static void main(String[] args)
-    {
-        // 123 321
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a number : ");
-        int num = sc.nextInt();
-        System.out.println("Enter b number :  ");
-        int sum = sc.nextInt(),ans = 1;
-        for(int i = 1;i<=sum;i++)
-        {
-           ans *= num;
-        }
-        System.out.println(ans);
+    int age;
+}
+public class helloWorld
+{
+    public static void main(String[] args) {
+        Person p1 = new Person();
+        p1.age = 20;
+        System.out.println(p1.age);
     }
 }
